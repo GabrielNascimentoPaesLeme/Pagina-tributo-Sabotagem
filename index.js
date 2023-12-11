@@ -5,6 +5,7 @@ var youtube = document.getElementById("youtube");
 menuButton.addEventListener("click", function() {
   if (menu.style.display === "block") {
     menu.style.display = "none";
+    youtube.style.display = "flex"
   } else {
     menu.style.display = "block";
     youtube.style.display = "none"
